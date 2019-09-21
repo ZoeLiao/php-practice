@@ -8,6 +8,12 @@
 - `cd <your project> && php artisan serve`
 - Visit [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
+## Install Laravel Homestead
+- [Install Laravel Homestead](https://laravel.tw/docs/5.3/homestead#first-steps)
+
+## Migrate
+- `php artisan make:migration create_tasks_table --create=tasks`
+
 ## PHP - Set Up
 - `php <file_name.php>`
 - `apachectl start`
